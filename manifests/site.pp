@@ -1,3 +1,7 @@
+package {'maven':
+           ensure => present
+}
+
 ## site.pp ##
 
 # This file (./manifests/site.pp) is the main entry point
